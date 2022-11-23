@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+  overflow-x: hidden;
+  background-color: hsl(0, 0%, 50%);
+}
+nav{
+    box-shadow: 0px 1px 3px 1px rgb(0, 0, 0);
+    background-color: rgb(100, 100, 100);
+    height: 3.5rem;    
+}
+.navbar-toggler{
+    border: none;
+    color: transparent;
+
+}
+.navbar-toggler:hover{
+    border: solid ghostwhite 1px;
+    border-radius: 0rem;
+}
+.brand{
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  position: relative;
+  top: 0.5rem;
+}
+.rounded-pill{
+  background-color: cadetblue;
+  color: aliceblue;
+}
+.rounded-pill:hover{
+   color: cadetblue;
+   background-color: white;
+   box-shadow: 0px 0px 2px 1px;
+}
+.col1{
+  color:  #125812 !important;
+}
+.col2{
+  color: red;
+}
+.font1{
+    font-weight: 700;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.font2{
+    font-family: 'Pacifico';
+}
+.slogan{
+    font-size: 1.5rem !important;
+    color: black !important;
+    position: relative;
+    top: -4.2rem;
+    left: 0.5rem;
+}
+main{
+    top: 4rem;
+}
+.flex{
+    display: flex;
+    margin: 1%;
+}
+.container1{
+    width: 100%;
+    height: auto;
+    flex-direction: row-reverse;
+}
+.img{
+    width: calc(100% - 35rem);
+    padding: 1%;
+}
+.p-4{
+  width: 35rem; 
+}
+h2{
+  margin-top: 2rem;
+}
+.h3{
+  margin-top: -2rem;
+}
+.overview{
+    padding: 2%;
+}
+.img2{
+    width: 25rem;
+    height: 15rem;
+}
+.img3{
+  width: 23rem;
+  height: 23rem;
+  border-radius: 50%;
+}
+.img1{
+  top: 5rem;
+  z-index: 0;
+  opacity: 0.2;
+}
+.p{
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 1px silver;
+}
+.overview ul{
+  background-color: dimgrey;
+  width:22rem;
+} 
+.overview li{
+  color: rgb(255, 218, 154);
+  list-style-type: square;
+  font-size: 1rem;
+}
+.circle{
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  background-color: gold;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.4);
+}
+.container2{
+  width: 45%;
+}
+.container3{
+  width: 55%;
+}
+.caution{width: 15rem;}
+.social{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: none;
+  margin-left: 0.8rem;
+  font-size: 1.2rem;
+}
+.nav-link{
+  color: dimgrey;
+}
+.nav-link:hover{
+  font-weight: 500;
+  color: rgb(57, 178, 182);
+}
+.social:hover{
+  background-color: cadetblue;
+}
+.gap-4{
+  flex-direction: column;
+}
+.text{
+  top: 1.2rem;
+  width: 18rem;
+  height: 8rem;
+  margin: 0 auto;
+  z-index: 1;
+}
+.half{
+  width: 48%;
+}
+.submit{
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.712);
+  background-color: cadetblue;
+  width: 300px;
+}
+.submit:hover{
+  background-color: aliceblue;
+  color: cadetblue;
+}
+@media screen and (max-width:540px){ 
+  .container1{flex-direction: column-reverse;margin:0;
+  }
+  .container1 div{
+    width: 98%;
+  }
+}
+li > a{
+  text-decoration: none;
+  color: cadetblue;
+}
+@media screen and (max-width:766px) {
+     .fc{flex-direction: column-reverse;}
+     .container2{width: 55% !important;}
+     .container3{width: 45%;}
+     .col-sm,.l-w{width: 100% !important;}
+     .half{width: 100%;}
+     .l-col{flex-direction: column;}
+     .caution{width: 20rem;}
+     
+}
+@media screen and (max-width:541px) {
+  .fc2{flex-direction: column;}
+  .l-w{width: 98vw !important;}
+  .overview{margin: 0% auto !important;}
+  .col-sm,.fw,.fc,.container2{width: 100% !important;}
+  .caution{width: 96%;}
+  .shift1{top: 3rem;}
+  .shift2{top: 8rem;}
+  .img2{width: 100vw;}
+  .img1{width: 15rem;height: 15rem;top: 3rem;}
+  .caution{width: 60vw !important;margin-top: -2rem!important;margin-left: 20vw!important;}
+}
