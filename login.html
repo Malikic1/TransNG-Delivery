@@ -112,8 +112,12 @@
         <img src="images/image2.jpeg" alt="delivery bus" class="rounded-pill" />
       </div>
       <br />
-      <form id="login" method="post" class="log-form m-auto text-center px-2">
-        <small>
+      <form
+        id="login"
+        method="post"
+        class="log-form m-auto text-center px-3 pt-2"
+      >
+        <p>
           Don't have an account yet ?
           <span
             >&nbsp;<button
@@ -124,15 +128,14 @@
               REGISTER
             </button></span
           >
-        </small>
-        <br />
-        <label for="email" class="float-start mt-3"><b>EMAIL</b></label>
+        </p>
+        <label for="email" class="float-start"><b>EMAIL</b></label>
         <br />
         <input
           type="email"
           name="EMAIL"
           placeholder="&nbsp;enter email address"
-          class="form-control mt-1"
+          class="form-control mt-1 mt"
         />
 
         <br />
@@ -141,7 +144,7 @@
         <input
           type="password"
           placeholder="&nbsp; password"
-          class="form-control mt-1"
+          class="form-control mt-1 mt"
           required
         />
         <br />
@@ -170,44 +173,42 @@
       <form
         id="register"
         method="post"
-        class="log-form m-auto text-center px-2"
+        class="log-form m-auto text-center px-3 py-2"
       >
         <p>
-          <small>
-            Already have an account ?
-            <span
-              >&nbsp;<button
-                style="background-color: transparent"
-                class="text-success border-0"
-                onclick="logBtn()"
-              >
-                LOGIN
-              </button></span
+          Already have an account ?
+          <span
+            >&nbsp;<button
+              style="background-color: transparent"
+              class="text-success border-0"
+              onclick="logBtn()"
             >
-          </small>
+              LOGIN
+            </button>
+          </span>
         </p>
 
-        <label for="email" class="float-start"><b>FULL-NAME</b></label>
+        <label for="text" class="float-start"><b>FULL-NAME</b></label>
         <br />
         <input
-          type="email"
-          name="EMAIL"
+          type="text"
+          name=""
           placeholder="&nbsp;enter full name"
-          class="form-control mt-1"
+          class="form-control mt-1 mt"
         />
         <label for="email" class="float-start mt-1"><b>EMAIL</b></label> <br />
         <input
           type="email"
-          name="EMAIL"
+          name=""
           placeholder="&nbsp;enter email address"
-          class="form-control mt-1"
+          class="form-control mt-1 mt"
         />
         <label for="password" class="float-start mt-1"><b>PASSWORD</b></label>
         <br />
         <input
           type="password"
           placeholder="&nbsp; password"
-          class="form-control mt-1"
+          class="form-control mt-1 mt"
           required
         />
         <label for="password" class="float-start mt-1"
@@ -217,7 +218,7 @@
         <input
           type="password"
           placeholder="&nbsp; password"
-          class="form-control mt-1"
+          class="form-control mt-1 mt"
           required
         />
         <br />
@@ -227,7 +228,7 @@
           value="REGISTER"
           class="form-control w-50 m-auto bg-secondary text-light hv"
         />
-        <p class="mt-4">
+        <p class="mt-3">
           <b>---------------</b>&nbsp;
           <a><i class="fa-brands fa-google a-1 a-2"></i></a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>

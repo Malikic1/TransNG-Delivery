@@ -172,7 +172,7 @@ h2 {
 .log-form {
   max-width: 400px;
   border-radius: 0.8rem;
-  height: 430px;
+  height: 440px;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.5);
 }
@@ -180,14 +180,14 @@ h2 {
   background: rgb(85, 85, 85) !important;
   color: cadetblue !important;
 }
+.mt {
+  height: 2.6rem;
+}
 #register {
   display: none;
 }
 .bg {
   background-image: url("images/image2.jpeg");
-}
-.mt-1 {
-  height: 2.5rem;
 }
 @media screen and (max-width: 540px) {
   .container1 {
