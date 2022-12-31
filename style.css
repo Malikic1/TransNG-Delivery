@@ -186,6 +186,9 @@ h2 {
 .bg {
   background-image: url("images/image2.jpeg");
 }
+.mt-1 {
+  height: 2.5rem;
+}
 @media screen and (max-width: 540px) {
   .container1 {
     flex-direction: column-reverse;
